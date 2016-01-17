@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217FEDF51B632512009DBF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FEDF41B632512009DBF8F /* AppDelegate.swift */; };
+		217FEDF71B632512009DBF8F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FEDF61B632512009DBF8F /* MenuView.swift */; };
+		217FEDFA1B632512009DBF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217FEDF81B632512009DBF8F /* Main.storyboard */; };
+		217FEDFC1B632512009DBF8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217FEDFB1B632512009DBF8F /* Images.xcassets */; };
+		217FEDFF1B632512009DBF8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217FEDFD1B632512009DBF8F /* LaunchScreen.xib */; };
+		217FEE0B1B632512009DBF8F /* DeepDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FEE0A1B632512009DBF8F /* DeepDreamTests.swift */; };
+		217FEE151B64311E009DBF8F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217FEE141B64311E009DBF8F /* MobileCoreServices.framework */; };
+		217FEE171B64B6CA009DBF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FEE161B64B6CA009DBF8F /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217FEE051B632512009DBF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217FEDE71B632512009DBF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217FEDEE1B632512009DBF8F;
+			remoteInfo = DeepDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		217FEDEF1B632512009DBF8F /* DeepDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217FEDF31B632512009DBF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217FEDF41B632512009DBF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		217FEDF61B632512009DBF8F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		217FEDF91B632512009DBF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		217FEDFB1B632512009DBF8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		217FEDFE1B632512009DBF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		217FEE041B632512009DBF8F /* DeepDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217FEE091B632512009DBF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217FEE0A1B632512009DBF8F /* DeepDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDreamTests.swift; sourceTree = "<group>"; };
+		217FEE141B64311E009DBF8F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		217FEE161B64B6CA009DBF8F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217FEDEC1B632512009DBF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217FEE151B64311E009DBF8F /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217FEE011B632512009DBF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217FEDE61B632512009DBF8F = {
+			isa = PBXGroup;
+			children = (
+				217FEE141B64311E009DBF8F /* MobileCoreServices.framework */,
+				217FEDF11B632512009DBF8F /* DeepDream */,
+				217FEE071B632512009DBF8F /* DeepDreamTests */,
+				217FEDF01B632512009DBF8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217FEDF01B632512009DBF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217FEDEF1B632512009DBF8F /* DeepDream.app */,
+				217FEE041B632512009DBF8F /* DeepDreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217FEDF11B632512009DBF8F /* DeepDream */ = {
+			isa = PBXGroup;
+			children = (
+				217FEDF41B632512009DBF8F /* AppDelegate.swift */,
+				217FEDF61B632512009DBF8F /* MenuView.swift */,
+				217FEDF81B632512009DBF8F /* Main.storyboard */,
+				217FEE161B64B6CA009DBF8F /* ViewController.swift */,
+				217FEDFB1B632512009DBF8F /* Images.xcassets */,
+				217FEDFD1B632512009DBF8F /* LaunchScreen.xib */,
+				217FEDF21B632512009DBF8F /* Supporting Files */,
+			);
+			path = DeepDream;
+			sourceTree = "<group>";
+		};
+		217FEDF21B632512009DBF8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				217FEDF31B632512009DBF8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217FEE071B632512009DBF8F /* DeepDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				217FEE0A1B632512009DBF8F /* DeepDreamTests.swift */,
+				217FEE081B632512009DBF8F /* Supporting Files */,
+			);
+			path = DeepDreamTests;
+			sourceTree = "<group>";
+		};
+		217FEE081B632512009DBF8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				217FEE091B632512009DBF8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217FEDEE1B632512009DBF8F /* DeepDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217FEE0E1B632512009DBF8F /* Build configuration list for PBXNativeTarget "DeepDream" */;
+			buildPhases = (
+				217FEDEB1B632512009DBF8F /* Sources */,
+				217FEDEC1B632512009DBF8F /* Frameworks */,
+				217FEDED1B632512009DBF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepDream;
+			productName = DeepDream;
+			productReference = 217FEDEF1B632512009DBF8F /* DeepDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217FEE031B632512009DBF8F /* DeepDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217FEE111B632512009DBF8F /* Build configuration list for PBXNativeTarget "DeepDreamTests" */;
+			buildPhases = (
+				217FEE001B632512009DBF8F /* Sources */,
+				217FEE011B632512009DBF8F /* Frameworks */,
+				217FEE021B632512009DBF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217FEE061B632512009DBF8F /* PBXTargetDependency */,
+			);
+			name = DeepDreamTests;
+			productName = DeepDreamTests;
+			productReference = 217FEE041B632512009DBF8F /* DeepDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217FEDE71B632512009DBF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Daniel Bessonov";
+				TargetAttributes = {
+					217FEDEE1B632512009DBF8F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					217FEE031B632512009DBF8F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 217FEDEE1B632512009DBF8F;
+					};
+				};
+			};
+			buildConfigurationList = 217FEDEA1B632512009DBF8F /* Build configuration list for PBXProject "DeepDream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217FEDE61B632512009DBF8F;
+			productRefGroup = 217FEDF01B632512009DBF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217FEDEE1B632512009DBF8F /* DeepDream */,
+				217FEE031B632512009DBF8F /* DeepDreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217FEDED1B632512009DBF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217FEDFA1B632512009DBF8F /* Main.storyboard in Resources */,
+				217FEDFF1B632512009DBF8F /* LaunchScreen.xib in Resources */,
+				217FEDFC1B632512009DBF8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217FEE021B632512009DBF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217FEDEB1B632512009DBF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217FEDF71B632512009DBF8F /* MenuView.swift in Sources */,
+				217FEE171B64B6CA009DBF8F /* ViewController.swift in Sources */,
+				217FEDF51B632512009DBF8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217FEE001B632512009DBF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217FEE0B1B632512009DBF8F /* DeepDreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217FEE061B632512009DBF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217FEDEE1B632512009DBF8F /* DeepDream */;
+			targetProxy = 217FEE051B632512009DBF8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		217FEDF81B632512009DBF8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217FEDF91B632512009DBF8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		217FEDFD1B632512009DBF8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217FEDFE1B632512009DBF8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217FEE0C1B632512009DBF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		217FEE0D1B632512009DBF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217FEE0F1B632512009DBF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		217FEE101B632512009DBF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		217FEE121B632512009DBF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeepDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDream.app/DeepDream";
+			};
+			name = Debug;
+		};
+		217FEE131B632512009DBF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeepDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDream.app/DeepDream";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217FEDEA1B632512009DBF8F /* Build configuration list for PBXProject "DeepDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217FEE0C1B632512009DBF8F /* Debug */,
+				217FEE0D1B632512009DBF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217FEE0E1B632512009DBF8F /* Build configuration list for PBXNativeTarget "DeepDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217FEE0F1B632512009DBF8F /* Debug */,
+				217FEE101B632512009DBF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217FEE111B632512009DBF8F /* Build configuration list for PBXNativeTarget "DeepDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217FEE121B632512009DBF8F /* Debug */,
+				217FEE131B632512009DBF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217FEDE71B632512009DBF8F /* Project object */;
+}
